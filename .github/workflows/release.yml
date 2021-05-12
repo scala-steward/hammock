@@ -20,7 +20,7 @@ jobs:
       - name: Setup Scala
         uses: olafurpg/setup-scala@v10
       - name: Setup Ruby
-        uses: actions/setup-ruby@v1
+        uses: actions/setup-ruby@v1.1.3
       - name: Setup GPG
         uses: olafurpg/setup-gpg@v3
       - name: Release new version
